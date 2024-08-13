@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 
 const __dirname = url.fileURLToPath(new URL(".", import.meta.url));
 
-const contactsPath = path.join(__dirname, "./db/contacts.json");
+const contactsPath = path.join(__dirname, "contacts.json");
 
 const updateContacts = (contacts) =>
   fs.writeFile(contactsPath, JSON.stringify(contacts, null, 2));
