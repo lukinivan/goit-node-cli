@@ -46,7 +46,3 @@ export const removeContact = async (contactId) => {
 
   return result;
 };
-
-// addContact("Alex", "dfdf@sdsd.ds", "12345");
-
-removeContact("e41621d6-9df6-4483-8b5c-dbc9e6181f73");
